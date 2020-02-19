@@ -1,4 +1,4 @@
-package utils;
+package com.test.insso.utils;
 
 public enum Canal {
 	MAIL,

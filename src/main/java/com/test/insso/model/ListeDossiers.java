@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ListeDossiers {
 	
-	 private List<DossierClient> DossierClientList;
+   public static List<DossierClient> DossierClientList;
 
 	public List<DossierClient> getDossierClientList() {
 		if(DossierClientList==null)

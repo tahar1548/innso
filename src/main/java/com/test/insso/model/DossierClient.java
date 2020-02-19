@@ -1,5 +1,6 @@
 package com.test.insso.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class DossierClient {
@@ -56,6 +57,7 @@ public class DossierClient {
 
 
 	public List<Message> getMessagesList() {
+		if(MessagesList ==null) MessagesList = new ArrayList<Message>();
 		return MessagesList;
 	}
 

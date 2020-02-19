@@ -1,18 +1,19 @@
 package com.test.insso.model;
 
+import com.test.insso.utils.Canal;
 
 public class Message {
 	
 	private String date; 
 	private String nomAuteur;
 	private String contenuMessage;
-	private String canal;
+	private Canal canal;
 	
 
 	public Message() {
 		super();
 	}
-	public Message(String date, String nomAuteur, String contenuMessage, String canal) {
+	public Message(String date, String nomAuteur, String contenuMessage, Canal canal) {
 		super();
 		this.date = date;
 		this.nomAuteur = nomAuteur;
@@ -37,10 +38,10 @@ public class Message {
 	public void setContenuMessage(String contenuMessage) {
 		this.contenuMessage = contenuMessage;
 	}
-	public String getCanal() {
+	public Canal getCanal() {
 		return canal;
 	}
-	public void setCanal(String canal) {
+	public void setCanal(Canal canal) {
 		this.canal = canal;
 	}
 	
